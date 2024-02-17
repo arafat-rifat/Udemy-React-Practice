@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Description = () => {
+const Description = (props) => {
   return (
-    <div>This is Fro Description Part</div>
+    <p className='text-base font-normal text-gray-800 text-center'>{props.des}</p>
   )
 }
 

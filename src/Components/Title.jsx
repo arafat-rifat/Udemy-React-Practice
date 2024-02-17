@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Title = () => {
+const Title = (props) => {
   return (
-    <div>This Is a Title</div>
-  )
-}
+    <div>
+      <h1 className="text-3xl font-bold text-black text-center">
+        {props.Name}
+      </h1>
+    </div>
+  );
+};
 
-export default Title
+export default Title;

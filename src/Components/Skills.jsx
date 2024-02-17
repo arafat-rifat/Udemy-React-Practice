@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Skills = () => {
+const Skills = (props) => {
   return (
-    <div>This is For Skill Part</div>
+    <button className={props.className}>
+        {props.title}
+    </button>
   )
 }
 
